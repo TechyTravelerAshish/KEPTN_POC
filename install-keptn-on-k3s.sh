@@ -1,1 +1,1 @@
-
+echo "Hi `date`"
