@@ -84,7 +84,6 @@ function get_keptn_token {
   echo "$(${K3SKUBECTL[@]} get secret keptn-api-token -n keptn -o jsonpath={.data.keptn-api-token} | base64 -d)"
 }
 
-
 function write_progress {
   status="${1:-default}"
   echo ""
